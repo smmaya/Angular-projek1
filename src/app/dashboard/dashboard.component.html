@@ -1,0 +1,8 @@
+<h4>To jest mój dashboard!</h4>
+<div>Obecnie mamy {{getCurrentYear()}}</div>
+<div class="title">Podaj swój rok urodzenia?</div>
+<div class="inputGroup">
+    <input type="text" name="yearOfBirth" id="yearOfBirth" [(ngModel)]="yearOfBirth"/><br />
+    <input type="submit" class="btn" value="Oblicz" (click)="calculateAge()"/>
+    <h2><div id="calculatedAge"></div></h2>
+</div>
