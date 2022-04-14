@@ -7,5 +7,4 @@ export class DaneOsobowe {
         wiek?: number;
         czyZyje?: boolean;
         seks?: string;
-
   }
